@@ -1,0 +1,37 @@
+/*body , html {
+	height:100%;
+	width:100%;
+}*/
+
+#contents {
+	text-align: center;
+	color:white;
+}
+
+#top {
+	background: url('https://images.unsplash.com/photo-1523225580870-1780b3b506fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.branch {
+	width:80%;
+	margin-left: 148px ;
+	text-align: center;
+}
+
+a{
+	cursor: pointer;
+
+}
+
+p{
+	padding-top: 5px;
+    font-size: 20px;
+}
+
+hr {
+	background: black;
+    width: 52%;
+
+}

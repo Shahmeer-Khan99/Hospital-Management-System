@@ -1,0 +1,41 @@
+html , body {
+	height:100%;
+	width:100%;
+
+}
+	
+
+
+body {
+	color : white;
+	background: url('https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=750&q=80');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+#contents {
+	padding : 20%;
+	text-align: center;
+}
+
+h1 {
+	font-size: 60px;
+	color : #ff9999;
+	font-family: 'Roboto Slab', serif;
+	text-shadow:4px 4px #262625;
+}
+
+#branch {
+    width: 42%;
+    padding: 12px;
+    outline:none;
+    /*display: block;*/
+}
+
+a{
+	font-family: 'Mukta', sans-serif;
+	color:white;
+}
+

@@ -1,0 +1,95 @@
+#contents {
+	text-align: center;
+	color:white;
+}
+
+#top {
+	background: url('https://images.unsplash.com/photo-1523225580870-1780b3b506fd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin : 0px;
+}
+
+/*.branch {
+	width:80%;
+	margin-left: 148px ;
+	text-align: center;
+}*/
+
+a{
+	cursor: pointer;
+	color : #ffffff;
+}
+
+.branch {
+	margin : 0px;
+	text-align: center;
+	height : 300px;
+	padding-top : 100px;
+}
+
+.sep {
+	background-color : #282E34;
+	height : 100px; 
+	margin : 0px;
+}
+
+#cure , #doctor , #staff , #patient , #practioner , #room , #appointment{
+  position: relative;
+  /*opacity: 0.90;*/
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+#cure {
+	background-image: url("https://wallpapercave.com/wp/wp6683499.jpg");
+	min-height: 400px;
+}
+
+#doctor {
+	background-image: url("https://images.unsplash.com/photo-1593759281224-2e5ad918fb91?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjN8fGRvY3RvcnxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+	min-height: 400px;
+
+}
+
+#staff {
+	background-image : url('https://images.unsplash.com/photo-1562564055-71e051d33c19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+	min-height: 400px;
+}
+
+#patient {
+	background-image: url('https://images.unsplash.com/photo-1574088332960-4d92e1f0efd0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTd8fHBhdGllbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	min-height: 400px;
+
+}
+
+#practioner {
+	background-image: url('https://images.unsplash.com/photo-1592225924255-31de2f8d8abe?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MzB8fHByYWN0aXRpb25lcnxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=500&q=60');
+	min-height: 400px;
+}
+
+#room{
+	background-image: url('https://images.unsplash.com/photo-1512678080530-7760d81faba6?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fGhvc3BpdGFsfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60');
+	min-height: 400px;
+}
+
+#appointment {
+	background-image: url('https://images.unsplash.com/photo-1553013746-fd5454da7078?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTV8fGFwcG9pbnRtZW50fGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+	min-height: 400px;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+  #cure , #doctor  , #staff , #patient , #practioner , #room , #appointment {
+    background-attachment: scroll;
+  }
+}
+
+
+
+
+
